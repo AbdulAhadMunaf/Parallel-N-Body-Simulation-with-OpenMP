@@ -1,0 +1,7 @@
+CPU: Apple M4 Pro
+Logical cores: 14
+OS: macOS-26.6.2-arm64-arm-64bit-Mach-O
+Compiler: Apple clang version 21.0.0 (clang-2100.1.1.101)
+Flags: -O3 -std=c11 (+ -fopenmp via libomp for the parallel build)
+Steps per run: 10
+Repetitions: 5 (median reported)

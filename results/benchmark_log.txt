@@ -1,0 +1,191 @@
+[  1/190] E1_serial    serial   N=10000  t= 1 none     ->     0.983 s
+[  2/190] E1_serial    serial   N=25000  t= 1 none     ->     6.219 s
+[  3/190] E1_serial    serial   N=50000  t= 1 none     ->    24.923 s
+[  4/190] E1_serial    serial   N=100000 t= 1 none     ->   101.071 s
+[  5/190] E2_threads   omp      N=100000 t= 1 static   ->   101.291 s
+[  6/190] E2_threads   omp      N=100000 t= 2 static   ->    51.879 s
+[  7/190] E2_threads   omp      N=100000 t= 4 static   ->    26.447 s
+[  8/190] E2_threads   omp      N=100000 t= 6 static   ->    17.796 s
+[  9/190] E2_threads   omp      N=100000 t= 8 static   ->    13.462 s
+[ 10/190] E2_threads   omp      N=100000 t=10 static   ->    11.188 s
+[ 11/190] E2_threads   omp      N=100000 t=12 static   ->    10.779 s
+[ 12/190] E2_threads   omp      N=100000 t=14 static   ->    11.258 s
+[ 13/190] E3_size      omp      N=10000  t=10 static   ->     0.122 s
+[ 14/190] E3_size      omp      N=10000  t=10 dynamic  ->     0.125 s
+[ 15/190] E3_size      omp      N=25000  t=10 static   ->     0.703 s
+[ 16/190] E3_size      omp      N=25000  t=10 dynamic  ->     0.691 s
+[ 17/190] E3_size      omp      N=50000  t=10 static   ->     2.776 s
+[ 18/190] E3_size      omp      N=50000  t=10 dynamic  ->     2.846 s
+[ 19/190] E3_size      omp      N=100000 t=10 static   ->    11.538 s
+[ 20/190] E3_size      omp      N=100000 t=10 dynamic  ->    11.512 s
+[ 21/190] E3_size      omp      N=10000  t=14 static   ->     0.172 s
+[ 22/190] E3_size      omp      N=10000  t=14 dynamic  ->     0.120 s
+[ 23/190] E3_size      omp      N=25000  t=14 static   ->     0.740 s
+[ 24/190] E3_size      omp      N=25000  t=14 dynamic  ->     0.640 s
+[ 25/190] E3_size      omp      N=50000  t=14 static   ->     2.927 s
+[ 26/190] E3_size      omp      N=50000  t=14 dynamic  ->     2.562 s
+[ 27/190] E3_size      omp      N=100000 t=14 static   ->    10.636 s
+[ 28/190] E3_size      omp      N=100000 t=14 dynamic  ->    10.467 s
+[ 29/190] E4_schedule  omp      N=100000 t=10 static   ->    11.279 s
+[ 30/190] E4_schedule  omp      N=100000 t=10 dynamic  ->    11.225 s
+[ 31/190] E4_schedule  omp      N=100000 t=10 guided   ->    11.325 s
+[ 32/190] E4_schedule  omp      N=100000 t=14 static   ->    10.528 s
+[ 33/190] E4_schedule  omp      N=100000 t=14 dynamic  ->    10.196 s
+[ 34/190] E4_schedule  omp      N=100000 t=14 guided   ->    10.339 s
+[ 35/190] E5_simd      omp_simd N=100000 t= 1 static   ->    68.414 s
+[ 36/190] E5_simd      omp_simd N=100000 t= 4 static   ->    17.891 s
+[ 37/190] E5_simd      omp_simd N=100000 t=10 static   ->     7.468 s
+[ 38/190] E5_simd      omp_simd N=100000 t=14 static   ->     7.375 s
+[ 39/190] E1_serial    serial   N=10000  t= 1 none     ->     1.031 s
+[ 40/190] E1_serial    serial   N=25000  t= 1 none     ->     6.435 s
+[ 41/190] E1_serial    serial   N=50000  t= 1 none     ->    25.887 s
+[ 42/190] E1_serial    serial   N=100000 t= 1 none     ->   102.543 s
+[ 43/190] E2_threads   omp      N=100000 t= 1 static   ->   101.610 s
+[ 44/190] E2_threads   omp      N=100000 t= 2 static   ->    51.885 s
+[ 45/190] E2_threads   omp      N=100000 t= 4 static   ->    26.369 s
+[ 46/190] E2_threads   omp      N=100000 t= 6 static   ->    17.828 s
+[ 47/190] E2_threads   omp      N=100000 t= 8 static   ->    13.396 s
+[ 48/190] E2_threads   omp      N=100000 t=10 static   ->    11.637 s
+[ 49/190] E2_threads   omp      N=100000 t=12 static   ->    11.055 s
+[ 50/190] E2_threads   omp      N=100000 t=14 static   ->    10.903 s
+[ 51/190] E3_size      omp      N=10000  t=10 static   ->     0.109 s
+[ 52/190] E3_size      omp      N=10000  t=10 dynamic  ->     0.111 s
+[ 53/190] E3_size      omp      N=25000  t=10 static   ->     0.691 s
+[ 54/190] E3_size      omp      N=25000  t=10 dynamic  ->     0.697 s
+[ 55/190] E3_size      omp      N=50000  t=10 static   ->     2.803 s
+[ 56/190] E3_size      omp      N=50000  t=10 dynamic  ->     2.832 s
+[ 57/190] E3_size      omp      N=100000 t=10 static   ->    11.476 s
+[ 58/190] E3_size      omp      N=100000 t=10 dynamic  ->    11.272 s
+[ 59/190] E3_size      omp      N=10000  t=14 static   ->     0.156 s
+[ 60/190] E3_size      omp      N=10000  t=14 dynamic  ->     0.104 s
+[ 61/190] E3_size      omp      N=25000  t=14 static   ->     0.747 s
+[ 62/190] E3_size      omp      N=25000  t=14 dynamic  ->     0.624 s
+[ 63/190] E3_size      omp      N=50000  t=14 static   ->     2.694 s
+[ 64/190] E3_size      omp      N=50000  t=14 dynamic  ->     2.607 s
+[ 65/190] E3_size      omp      N=100000 t=14 static   ->    10.555 s
+[ 66/190] E3_size      omp      N=100000 t=14 dynamic  ->    10.320 s
+[ 67/190] E4_schedule  omp      N=100000 t=10 static   ->    11.345 s
+[ 68/190] E4_schedule  omp      N=100000 t=10 dynamic  ->    11.406 s
+[ 69/190] E4_schedule  omp      N=100000 t=10 guided   ->    11.304 s
+[ 70/190] E4_schedule  omp      N=100000 t=14 static   ->    10.834 s
+[ 71/190] E4_schedule  omp      N=100000 t=14 dynamic  ->    10.244 s
+[ 72/190] E4_schedule  omp      N=100000 t=14 guided   ->    10.148 s
+[ 73/190] E5_simd      omp_simd N=100000 t= 1 static   ->    68.596 s
+[ 74/190] E5_simd      omp_simd N=100000 t= 4 static   ->    17.745 s
+[ 75/190] E5_simd      omp_simd N=100000 t=10 static   ->     7.413 s
+[ 76/190] E5_simd      omp_simd N=100000 t=14 static   ->     7.253 s
+[ 77/190] E1_serial    serial   N=10000  t= 1 none     ->     1.028 s
+[ 78/190] E1_serial    serial   N=25000  t= 1 none     ->     6.414 s
+[ 79/190] E1_serial    serial   N=50000  t= 1 none     ->    25.656 s
+[ 80/190] E1_serial    serial   N=100000 t= 1 none     ->   101.935 s
+[ 81/190] E2_threads   omp      N=100000 t= 1 static   ->   101.999 s
+[ 82/190] E2_threads   omp      N=100000 t= 2 static   ->    51.732 s
+[ 83/190] E2_threads   omp      N=100000 t= 4 static   ->    26.550 s
+[ 84/190] E2_threads   omp      N=100000 t= 6 static   ->    17.723 s
+[ 85/190] E2_threads   omp      N=100000 t= 8 static   ->    13.407 s
+[ 86/190] E2_threads   omp      N=100000 t=10 static   ->    10.812 s
+[ 87/190] E2_threads   omp      N=100000 t=12 static   ->    10.344 s
+[ 88/190] E2_threads   omp      N=100000 t=14 static   ->    10.262 s
+[ 89/190] E3_size      omp      N=10000  t=10 static   ->     0.115 s
+[ 90/190] E3_size      omp      N=10000  t=10 dynamic  ->     0.113 s
+[ 91/190] E3_size      omp      N=25000  t=10 static   ->     0.680 s
+[ 92/190] E3_size      omp      N=25000  t=10 dynamic  ->     0.680 s
+[ 93/190] E3_size      omp      N=50000  t=10 static   ->     2.729 s
+[ 94/190] E3_size      omp      N=50000  t=10 dynamic  ->     2.864 s
+[ 95/190] E3_size      omp      N=100000 t=10 static   ->    10.836 s
+[ 96/190] E3_size      omp      N=100000 t=10 dynamic  ->    10.793 s
+[ 97/190] E3_size      omp      N=10000  t=14 static   ->     0.158 s
+[ 98/190] E3_size      omp      N=10000  t=14 dynamic  ->     0.101 s
+[ 99/190] E3_size      omp      N=25000  t=14 static   ->     0.710 s
+[100/190] E3_size      omp      N=25000  t=14 dynamic  ->     0.618 s
+[101/190] E3_size      omp      N=50000  t=14 static   ->     2.679 s
+[102/190] E3_size      omp      N=50000  t=14 dynamic  ->     2.470 s
+[103/190] E3_size      omp      N=100000 t=14 static   ->    10.107 s
+[104/190] E3_size      omp      N=100000 t=14 dynamic  ->     9.811 s
+[105/190] E4_schedule  omp      N=100000 t=10 static   ->    10.816 s
+[106/190] E4_schedule  omp      N=100000 t=10 dynamic  ->    10.779 s
+[107/190] E4_schedule  omp      N=100000 t=10 guided   ->    10.779 s
+[108/190] E4_schedule  omp      N=100000 t=14 static   ->    10.430 s
+[109/190] E4_schedule  omp      N=100000 t=14 dynamic  ->     9.783 s
+[110/190] E4_schedule  omp      N=100000 t=14 guided   ->     9.796 s
+[111/190] E5_simd      omp_simd N=100000 t= 1 static   ->    67.789 s
+[112/190] E5_simd      omp_simd N=100000 t= 4 static   ->    18.087 s
+[113/190] E5_simd      omp_simd N=100000 t=10 static   ->     7.237 s
+[114/190] E5_simd      omp_simd N=100000 t=14 static   ->     7.083 s
+[115/190] E1_serial    serial   N=10000  t= 1 none     ->     1.022 s
+[116/190] E1_serial    serial   N=25000  t= 1 none     ->     6.386 s
+[117/190] E1_serial    serial   N=50000  t= 1 none     ->    25.522 s
+[118/190] E1_serial    serial   N=100000 t= 1 none     ->   100.737 s
+[119/190] E2_threads   omp      N=100000 t= 1 static   ->   100.030 s
+[120/190] E2_threads   omp      N=100000 t= 2 static   ->    51.510 s
+[121/190] E2_threads   omp      N=100000 t= 4 static   ->    26.411 s
+[122/190] E2_threads   omp      N=100000 t= 6 static   ->    17.893 s
+[123/190] E2_threads   omp      N=100000 t= 8 static   ->    13.476 s
+[124/190] E2_threads   omp      N=100000 t=10 static   ->    11.368 s
+[125/190] E2_threads   omp      N=100000 t=12 static   ->    10.676 s
+[126/190] E2_threads   omp      N=100000 t=14 static   ->    10.842 s
+[127/190] E3_size      omp      N=10000  t=10 static   ->     0.118 s
+[128/190] E3_size      omp      N=10000  t=10 dynamic  ->     0.115 s
+[129/190] E3_size      omp      N=25000  t=10 static   ->     0.737 s
+[130/190] E3_size      omp      N=25000  t=10 dynamic  ->     0.704 s
+[131/190] E3_size      omp      N=50000  t=10 static   ->     2.799 s
+[132/190] E3_size      omp      N=50000  t=10 dynamic  ->     2.840 s
+[133/190] E3_size      omp      N=100000 t=10 static   ->    11.268 s
+[134/190] E3_size      omp      N=100000 t=10 dynamic  ->    11.197 s
+[135/190] E3_size      omp      N=10000  t=14 static   ->     0.164 s
+[136/190] E3_size      omp      N=10000  t=14 dynamic  ->     0.108 s
+[137/190] E3_size      omp      N=25000  t=14 static   ->     0.734 s
+[138/190] E3_size      omp      N=25000  t=14 dynamic  ->     0.626 s
+[139/190] E3_size      omp      N=50000  t=14 static   ->     2.682 s
+[140/190] E3_size      omp      N=50000  t=14 dynamic  ->     2.531 s
+[141/190] E3_size      omp      N=100000 t=14 static   ->    10.473 s
+[142/190] E3_size      omp      N=100000 t=14 dynamic  ->    10.650 s
+[143/190] E4_schedule  omp      N=100000 t=10 static   ->    11.303 s
+[144/190] E4_schedule  omp      N=100000 t=10 dynamic  ->    11.371 s
+[145/190] E4_schedule  omp      N=100000 t=10 guided   ->    11.168 s
+[146/190] E4_schedule  omp      N=100000 t=14 static   ->    10.391 s
+[147/190] E4_schedule  omp      N=100000 t=14 dynamic  ->    10.706 s
+[148/190] E4_schedule  omp      N=100000 t=14 guided   ->    10.732 s
+[149/190] E5_simd      omp_simd N=100000 t= 1 static   ->    68.526 s
+[150/190] E5_simd      omp_simd N=100000 t= 4 static   ->    17.952 s
+[151/190] E5_simd      omp_simd N=100000 t=10 static   ->     9.547 s
+[152/190] E5_simd      omp_simd N=100000 t=14 static   ->     8.607 s
+[153/190] E1_serial    serial   N=10000  t= 1 none     ->     1.023 s
+[154/190] E1_serial    serial   N=25000  t= 1 none     ->     6.393 s
+[155/190] E1_serial    serial   N=50000  t= 1 none     ->    25.702 s
+[156/190] E1_serial    serial   N=100000 t= 1 none     ->   102.733 s
+[157/190] E2_threads   omp      N=100000 t= 1 static   ->   101.140 s
+[158/190] E2_threads   omp      N=100000 t= 2 static   ->    51.681 s
+[159/190] E2_threads   omp      N=100000 t= 4 static   ->    26.408 s
+[160/190] E2_threads   omp      N=100000 t= 6 static   ->    17.885 s
+[161/190] E2_threads   omp      N=100000 t= 8 static   ->    13.462 s
+[162/190] E2_threads   omp      N=100000 t=10 static   ->    11.517 s
+[163/190] E2_threads   omp      N=100000 t=12 static   ->    11.142 s
+[164/190] E2_threads   omp      N=100000 t=14 static   ->    10.489 s
+[165/190] E3_size      omp      N=10000  t=10 static   ->     0.114 s
+[166/190] E3_size      omp      N=10000  t=10 dynamic  ->     0.112 s
+[167/190] E3_size      omp      N=25000  t=10 static   ->     0.696 s
+[168/190] E3_size      omp      N=25000  t=10 dynamic  ->     0.703 s
+[169/190] E3_size      omp      N=50000  t=10 static   ->     2.817 s
+[170/190] E3_size      omp      N=50000  t=10 dynamic  ->     2.816 s
+[171/190] E3_size      omp      N=100000 t=10 static   ->    11.265 s
+[172/190] E3_size      omp      N=100000 t=10 dynamic  ->    11.190 s
+[173/190] E3_size      omp      N=10000  t=14 static   ->     0.166 s
+[174/190] E3_size      omp      N=10000  t=14 dynamic  ->     0.103 s
+[175/190] E3_size      omp      N=25000  t=14 static   ->     0.713 s
+[176/190] E3_size      omp      N=25000  t=14 dynamic  ->     0.621 s
+[177/190] E3_size      omp      N=50000  t=14 static   ->     2.787 s
+[178/190] E3_size      omp      N=50000  t=14 dynamic  ->     2.580 s
+[179/190] E3_size      omp      N=100000 t=14 static   ->    10.477 s
+[180/190] E3_size      omp      N=100000 t=14 dynamic  ->    10.242 s
+[181/190] E4_schedule  omp      N=100000 t=10 static   ->    11.515 s
+[182/190] E4_schedule  omp      N=100000 t=10 dynamic  ->    11.285 s
+[183/190] E4_schedule  omp      N=100000 t=10 guided   ->    11.628 s
+[184/190] E4_schedule  omp      N=100000 t=14 static   ->    10.728 s
+[185/190] E4_schedule  omp      N=100000 t=14 dynamic  ->    10.297 s
+[186/190] E4_schedule  omp      N=100000 t=14 guided   ->    10.566 s
+[187/190] E5_simd      omp_simd N=100000 t= 1 static   ->    68.587 s
+[188/190] E5_simd      omp_simd N=100000 t= 4 static   ->    17.688 s
+[189/190] E5_simd      omp_simd N=100000 t=10 static   ->     7.640 s
+[190/190] E5_simd      omp_simd N=100000 t=14 static   ->     7.783 s
+done -> results/raw_runs.csv

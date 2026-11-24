@@ -1,0 +1,4 @@
+-std=c11
+-I/opt/homebrew/opt/libomp/include
+-Xpreprocessor
+-fopenmp

@@ -1,0 +1,21 @@
+VALIDATION  (N=8000, steps=20, seed=42, machine cores=14)
+==============================================================================
+
+Check 1: final state of parallel run vs serial run
+configuration                    max |diff|  max rel diff  result
+OpenMP  1 thread  static          0.000e+00     0.000e+00  PASS (bit-identical)
+OpenMP  2 threads static          0.000e+00     0.000e+00  PASS (bit-identical)
+OpenMP  4 threads static          0.000e+00     0.000e+00  PASS (bit-identical)
+OpenMP 14 threads static          0.000e+00     0.000e+00  PASS (bit-identical)
+OpenMP 14 threads dynamic         0.000e+00     0.000e+00  PASS (bit-identical)
+OpenMP 14 threads guided          0.000e+00     0.000e+00  PASS (bit-identical)
+OpenMP 14 threads + simd          1.110e-16     1.116e-16  PASS (rounding only)
+
+Check 2: energy conservation (leapfrog integrator, dt=0.001)
+program                         steps  rel. energy drift  result
+serial                             10          1.874e-11  PASS
+serial                            100          2.096e-09  PASS
+OpenMP 14 threads                  10          1.867e-11  PASS
+OpenMP 14 threads                 100          2.095e-09  PASS
+
+OVERALL: ALL CHECKS PASSED
